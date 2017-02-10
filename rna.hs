@@ -1,7 +1,5 @@
 module Main where
 
-import Lib
-
 transcribe :: Char -> Char
 transcribe 'T' = 'U'
 transcribe x = x

@@ -1,7 +1,5 @@
 module Main where
 
-import Lib
-
 -- Given a DNA base and sequence, return the number of occurences in the sequence.
 countBase :: ([Char], Char) -> Int
 countBase (dna, base) = length $ filter (\b -> b == base) dna

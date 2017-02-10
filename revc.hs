@@ -1,7 +1,5 @@
 module Main where
 
-import Lib
-
 complement :: Char -> Char
 complement 'A' = 'T'
 complement 'T' = 'A'
